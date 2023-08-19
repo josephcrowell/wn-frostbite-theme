@@ -48,9 +48,8 @@ module.exports = {
                 rose: colors.rose,
             },
             fontFamily: {
-                standard: ['Inter', 'sans-serif'],
-                heading: ['Yantramanav', 'sans-serif'],
-                code: ['Cousine', 'monospace'],
+                standard: ['Roboto', 'sans-serif'],
+                heading: ['Roboto', 'sans-serif'],
             },
             fontSize: {
                 base: ['15.5px', '26px'],
