@@ -1,7 +1,7 @@
 name: "Frostbite"
 description: "TailwindCSS and Flowbite built parent theme. Child themes should override this theme."
 author: "Joseph Crowell"
-homepage: "http://computerlink.com.au"
+homepage: "https://github.com/josephcrowell/wn-frostbite-theme"
 code: frostbite
 form:
     fields:

@@ -1,8 +1,8 @@
 {
-    "name": "winter/wn-frostbit-theme",
+    "name": "josephcrowell/wn-frostbite-theme",
     "description": "Frostbite base theme.",
     "type": "winter-theme",
-    "homepage": "https://github.com/wintercms/wn-frostbite-theme",
+    "homepage": "https://github.com/josephcrowell/wn-frostbite-theme",
     "keywords": [
         "winter cms",
         "winter",
@@ -20,9 +20,9 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/wintercms/wn-frostbite-theme/issues",
+        "issues": "https://github.com/josephcrowell/wn-frostbite-theme/issues",
         "discord": "https://discord.gg/D5MFSPH6Ux",
-        "source": "https://github.com/wintercms/wn-frostbite-theme"
+        "source": "https://github.com/josephcrowell/wn-frostbite-theme"
     },
     "require": {
         "composer/installers": "~1.0"
