@@ -12,4 +12,10 @@ mix
     ])
 
     // Compile JS
-    .js('assets/src/js/theme.js', 'assets/dist/js/theme.js');
+    .js('assets/src/js/theme.js', 'assets/dist/js/theme.js')
+
+    .webpackConfig({
+        stats: {
+            children: true
+        }
+    });
