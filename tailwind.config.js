@@ -80,9 +80,6 @@ module.exports = {
         },
     },
     darkMode: 'media',
-    stats: {
-         children: true
-    },
     plugins: [
         require('flowbite/plugin')
     ],
