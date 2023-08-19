@@ -14,23 +14,23 @@ The theme is built on Tailwind CSS and Flowbite, which are built using the NodeJ
 You must first install the Node dependencies required for the theme.
 
 ```bash
-php artisan mix:install -p theme-workshop
+php artisan mix:install -p theme-frostbite
 ```
 
 Then, to compile the Tailwind CSS styles for development, run the following command in the root folder of the project:
 
 ```bash
-php artisan mix:compile -p theme-workshop
+php artisan mix:compile -p theme-frostbite
 ```
 
-To compile the Tailwind CSS styles for production (which should be done if you commit any changes to the Workshop theme), you must add the `--production` flag to the above command:
+To compile the Tailwind CSS styles for production (which should be done if you commit any changes to the Frostbite theme), you must add the `--production` flag to the above command:
 
 ```bash
-php artisan mix:compile -p theme-workshop --production
+php artisan mix:compile -p theme-frostbite --production
 ```
 
 To make it easy to develop the theme, you can also watch the necessary template and stylesheet files for any changes:
 
 ```bash
-php artisan mix:watch theme-workshop
+php artisan mix:watch theme-frostbite
 ```
