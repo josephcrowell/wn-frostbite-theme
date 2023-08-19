@@ -1,0 +1,14 @@
+description = "HTML Head"
+
+[viewBag]
+==
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% placeholder page_title default %}{{ this.page.title }}{% endplaceholder %}</title>
+    <link rel="icon" type="image/svg" href="https://flowbite.com/docs/images/logo.svg">
+    {% partial "meta/styles" %}
+    {% partial "meta/seo" %}
+    <meta name="generator" content="Winter CMS">
+</head>

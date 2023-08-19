@@ -1,0 +1,18 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+    {% partial "site/header" %}
+    {% partial "nav/default-navbar" %}
+    <body class="page-{{ pageId }} layout-{{ this.layout.id }} flex flex-col h-full">
+        <section id="body" class="py-20 flex-grow">
+            <div class="container max-w-screen-xl">
+                <div class="flex flex-col h-screen">
+                    {% page %}
+                </div>
+            </div>
+        </section>
+
+        {% partial "site/footer" %}
+    </body>
+</html>

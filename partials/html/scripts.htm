@@ -1,0 +1,16 @@
+description = "HTML Scripts"
+
+[viewBag]
+==
+{% snowboard all %}
+
+{# Mix extracted assets #}
+<script src="{{ 'assets/dist/js/theme.js' | theme }}"></script>
+
+{% scripts %}
+
+{% flash %}
+    <p data-control="flash-message" data-interval="7" class="flashmessage {{ type }}">
+        {{ message }}
+    </p>
+{% endflash %}

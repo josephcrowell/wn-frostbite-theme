@@ -1,0 +1,33 @@
+{
+    "name": "winter/wn-frostbit-theme",
+    "description": "Frostbite base theme.",
+    "type": "winter-theme",
+    "homepage": "https://github.com/wintercms/wn-frostbite-theme",
+    "keywords": [
+        "winter cms",
+        "winter",
+        "theme",
+        "flowbite",
+        "tailwind",
+        "snowboard"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Crowell",
+            "email": "joseph.w.crowell@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wintercms/wn-frostbite-theme/issues",
+        "discord": "https://discord.gg/D5MFSPH6Ux",
+        "source": "https://github.com/wintercms/wn-frostbite-theme"
+    },
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "frostbite"
+    }
+}

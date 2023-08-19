@@ -1,2 +1,36 @@
-# wn-flowbite-base-theme
-The base theme used as scaffolding for tailwind/flowbite themes
+# Frostbite Theme
+
+The Frostbite Theme is a simple theme built on [Tailwind CSS](https://tailwindcss.com/) and [Flowbite](https://flowbite.com/docs/) that aims to be a base theme for Winter CMS. This theme uses [Winter Mix](https://wintercms.com/docs/console/asset-compilation) for asset compilation.
+
+## Requirements
+
+- Winter CMS 1.1.8 or above.
+- NodeJS 12 or above, if you wish to style the theme.
+
+## Development
+
+The theme is built on Tailwind CSS and Flowbite, which are built using the NodeJS framework. To be able to compile any changes made to the styling or content, you must use the Mix commands that are included with Winter CMS 1.1.8 and above.
+
+You must first install the Node dependencies required for the theme.
+
+```bash
+php artisan mix:install -p theme-workshop
+```
+
+Then, to compile the Tailwind CSS styles for development, run the following command in the root folder of the project:
+
+```bash
+php artisan mix:compile -p theme-workshop
+```
+
+To compile the Tailwind CSS styles for production (which should be done if you commit any changes to the Workshop theme), you must add the `--production` flag to the above command:
+
+```bash
+php artisan mix:compile -p theme-workshop --production
+```
+
+To make it easy to develop the theme, you can also watch the necessary template and stylesheet files for any changes:
+
+```bash
+php artisan mix:watch theme-workshop
+```
