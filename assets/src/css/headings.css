@@ -1,0 +1,94 @@
+.heading {
+    &-display {
+        @apply font-heading text-h1 font-bold tracking-tight lg:text-heading lg:font-normal lg:tracking-tighter;
+    }
+    &-1 {
+        @apply font-heading font-light text-h2 tracking-normal lg:text-h1 lg:tracking-tight;
+    }
+    &-2 {
+        @apply font-heading font-light text-h3 lg:text-h2;
+    }
+    &-3 {
+        @apply font-heading font-normal text-h4 lg:text-h3;
+    }
+    &-4 {
+        @apply font-bold text-h5 lg:text-h4;
+    }
+    &-5 {
+        @apply font-bold text-h6 lg:text-h5;
+    }
+    &-6 {
+        @apply font-bold text-h6;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+    @apply mt-8 relative;
+
+    &:first-child {
+        @apply mt-0;
+    }
+
+    .heading-permalink {
+        @apply absolute -left-6 text-right lg:-left-6 lg:text-center transition-all w-5 lg:w-6;
+    }
+}
+
+h1, .heading-1 {
+    @apply mb-8;
+}
+
+h2, .heading-2 {
+    @apply pt-5 lg:pt-10 mb-8 pb-4 border-b;
+}
+
+h3, .heading-3 {
+    @apply pt-3 lg:pt-4 mb-8;
+}
+
+h4, .heading-4 {
+    @apply pt-2 mb-8;
+}
+
+p {
+    @apply mt-4;
+
+    &:first-of-type {
+        @apply mt-0;
+    }
+}
+
+h1, h1 > a, .heading-1 {
+    @apply font-heading font-light text-h1 tracking-normal lg:text-h1 lg:tracking-tight no-underline;
+}
+
+h2, h2 > a, .heading-2 {
+    @apply font-heading font-light text-h2 lg:text-h2 no-underline;
+}
+
+h3, h3 > a, .heading-3 {
+    @apply font-heading font-light text-h3 lg:text-h3 no-underline;
+}
+
+h4, h4 > a, .heading-4 {
+    @apply font-bold text-h5 lg:text-h4 no-underline;
+}
+
+h5, h5 > a, .heading-5 {
+    @apply font-bold text-h6 lg:text-h5 no-underline;
+}
+
+h6, h6 > a, .heading-6 {
+    @apply font-bold text-h6 no-underline;
+}
