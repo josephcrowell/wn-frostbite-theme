@@ -6,8 +6,8 @@ mix
     // Render Tailwind style
     .postCss('assets/src/css/theme.css', 'assets/dist/css/theme.css', [
         require('postcss-import'),
-        require('tailwindcss'),
         require('tailwindcss/nesting'),
+        require('tailwindcss'),
         require('autoprefixer'),
     ])
 
