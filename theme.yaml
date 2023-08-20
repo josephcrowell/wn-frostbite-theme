@@ -1,21 +1,21 @@
 name: "Frostbite"
 description: "TailwindCSS and Flowbite built parent theme. Child themes should override this theme."
 author: "Joseph Crowell"
-homepage: "https://github.com/josephcrowell/wn-frostbite-theme"
+homepage: "https://frostbite.computerlink.com.au/"
 code: frostbite
 form:
-    fields:
-        googleanalytics_id:
-            label: themes.frostbite::lang.options.googleanalytics_id
-            type: text
-            span: full
-        color_primary:
-            label: themes.frostbite::lang.options.color_primary
-            type: colorpicker
-            span: left
-            default: "#103141"
-        color_secondary:
-            label: themes.frostbite::lang.options.color_secondary
-            type: colorpicker
-            span: right
-            default: "#2DA7C7"
+  fields:
+    googleanalytics_id:
+      label: themes.frostbite::lang.options.googleanalytics_id
+      type: text
+      span: full
+    color_primary:
+      label: themes.frostbite::lang.options.color_primary
+      type: colorpicker
+      span: left
+      default: "#145574"
+    color_secondary:
+      label: themes.frostbite::lang.options.color_secondary
+      type: colorpicker
+      span: right
+      default: "#2DA7C7"
