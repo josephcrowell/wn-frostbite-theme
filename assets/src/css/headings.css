@@ -50,15 +50,15 @@ h1, .heading-1 {
 }
 
 h2, .heading-2 {
-    @apply pt-5 lg:pt-10 mb-8 pb-4 border-b;
+    @apply pt-5 lg:pt-10 mb-2 pb-2 border-b;
 }
 
 h3, .heading-3 {
-    @apply pt-3 lg:pt-4 mb-8;
+    @apply pt-3 lg:pt-4 mb-2;
 }
 
 h4, .heading-4 {
-    @apply pt-2 mb-8;
+    @apply pt-2 mb-2;
 }
 
 p {
@@ -70,7 +70,7 @@ p {
 }
 
 h1, h1 > a, .heading-1 {
-    @apply font-heading font-light text-h1 tracking-normal lg:text-h1 lg:tracking-tight no-underline;
+    @apply font-heading font-bold text-h1 tracking-normal lg:text-h1 lg:tracking-tight no-underline;
 }
 
 h2, h2 > a, .heading-2 {
