@@ -100,6 +100,11 @@ module.exports = {
         },
     },
     darkMode: 'media',
+    variants: {
+        extend: {
+            display: ['dark'],
+        },
+    },
     plugins: [
         require('flowbite/plugin')
     ],
