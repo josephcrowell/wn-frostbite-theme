@@ -4,7 +4,7 @@ description = "Default layout"
 <html lang="en">
     {% partial "site/header" %}
     {% partial "nav/default-navbar" %}
-    <body class="page-{{ pageId }} layout-{{ this.layout.id }} flex flex-col h-full">
+    <body class="page-{{ pageId }} layout-{{ this.layout.id }} flex flex-col h-full dark:bg-zinc-800">
         <section id="body" class="py-20 flex-grow">
             <div class="container">
                 {% page %}
