@@ -1,14 +1,23 @@
 description = "No Navbar and No Footer"
 ==
+{% if pageTitle is empty %}
+    {% if this.page.meta_title %}
+        {% set pageTitle = this.page.meta_title %}
+    {% elseif this.page.title %}
+        {% set pageTitle = this.page.title %}
+    {% endif %}
+{% endif %}
 <!DOCTYPE html>
-<html lang="en">
-    {% partial "site/header" %}
+<html lang="en" class="h-full tracking-normal">
+    {% partial "html/head" %}
+    {% set pageId = this.page.id %}
+    {% if pageId is empty %}
+        {% set pageId = page.id %}
+    {% endif %}
     <body class="page-{{ pageId }} layout-{{ this.layout.id }} flex flex-col h-full dark:bg-zinc-800">
-        <section id="body" class="py-20 flex-grow">
-            <div class="container">
-                {% page %}
-            </div>
-        </section>
+        <div class="container">
+            {% page %}
+        </div>
 
         {% partial "html/scripts" %}
     </body>
