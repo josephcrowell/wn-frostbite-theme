@@ -1,18 +1,18 @@
 # Frostbite Theme
 
 <p align="center">
-  <a href="https://travis-ci.org/josephcrowell/wn-frostbite-theme">
+  <a href="https://packagist.org/packages/josephcrowell/wn-frostbite-theme">
     <img src="https://img.shields.io/badge/Winter CMS-Theme-%23EE7203.svg">
   </a>
   <a href="https://www.patreon.com/josephcrowell">
     <img src="https://img.shields.io/badge/Support_on-Patreon-green.svg">
   </a>
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+  <a href="https://opensource.org/license/mit/">
     <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg">
   </a>
 </p>
 
-The Frostbite Theme is a simple theme built on [Tailwind CSS](https://tailwindcss.com/) and [Flowbite](https://flowbite.com/docs/) that aims to be a base theme for Winter CMS. This theme uses [Winter Mix](https://wintercms.com/docs/console/asset-compilation) for asset compilation.
+The Frostbite Theme is a simple theme built on [Tailwind CSS](https://tailwindcss.com/) and [Flowbite](https://flowbite.com/docs/) that aims to be a base theme for [Winter CMS](https://wintercms.com/). This theme uses [Winter Mix](https://wintercms.com/docs/console/asset-compilation) for asset compilation.
 
 ## Requirements
 
