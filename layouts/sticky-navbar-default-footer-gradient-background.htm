@@ -1,0 +1,27 @@
+description = "Sticky Navbar and Default Footer with a Gradient Background"
+==
+<!DOCTYPE html>
+<html lang="en">
+    {% partial "site/header" %}
+    {% partial "nav/sticky-top-navbar" %}
+    <body class="
+        page-{{ pageId }}
+        layout-{{ this.layout.id }}
+        flex
+        flex-col
+        h-full
+        bg-gradient-to-br
+        from-white
+        to-neutral-500
+        dark:from-zinc-800
+        dark:to-zinc-950
+        ">
+        <section id="body" class="py-20 flex-grow">
+            <div class="container">
+                {% page %}
+            </div>
+        </section>
+
+        {% partial "site/footer" %}
+    </body>
+</html>
