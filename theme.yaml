@@ -4,48 +4,264 @@ author: "Joseph Crowell"
 homepage: "https://frostbite.computerlink.com.au/"
 code: frostbite
 form:
-  fields:
-    googleanalytics_id:
-      label: themes.frostbite::lang.options.googleanalytics_id
-      type: text
-      span: full
-    color_primary:
-      label: themes.frostbite::lang.options.color_primary
-      type: colorpicker
-      span: left
-      default: "#052838"
-    color_primary_text:
-      label: themes.frostbite::lang.options.color_primary_text
-      type: colorpicker
-      span: right
-      default: "#FFFFFF"
-    color_primary_dark:
-      label: themes.frostbite::lang.options.color_primary_dark
-      type: colorpicker
-      span: left
-      default: "#4B6F80"
-    color_primary_dark_text:
-      label: themes.frostbite::lang.options.color_primary_dark_text
-      type: colorpicker
-      span: right
-      default: "#FFFFFF"
-    color_secondary:
-      label: themes.frostbite::lang.options.color_secondary
-      type: colorpicker
-      span: left
-      default: "#B4DAE4"
-    color_secondary_text:
-      label: themes.frostbite::lang.options.color_secondary_text
-      type: colorpicker
-      span: right
-      default: "#000000"
-    color_secondary_dark:
-      label: themes.frostbite::lang.options.color_secondary_dark
-      type: colorpicker
-      span: left
-      default: "#072D36"
-    color_secondary_dark_text:
-      label: themes.frostbite::lang.options.color_secondary_dark_text
-      type: colorpicker
-      span: right
-      default: "#FFFFFF"
+  tabs:
+    stretch: true
+    defaultTab: General
+    fields:
+      googleanalytics_id:
+        label: themes.frostbite::lang.options.googleanalytics_id
+        type: text
+        span: full
+        tab: General
+      color_primary:
+        label: themes.frostbite::lang.options.color_primary
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Primary Colors
+      color_primary_content:
+        label: themes.frostbite::lang.options.color_primary_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_primary_hover:
+        label: themes.frostbite::lang.options.color_primary_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Primary Colors
+      color_primary_hover_content:
+        label: themes.frostbite::lang.options.color_primary_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_primary_focus:
+        label: themes.frostbite::lang.options.color_primary_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Primary Colors
+      color_primary_focus_content:
+        label: themes.frostbite::lang.options.color_primary_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_primary_dark:
+        label: themes.frostbite::lang.options.color_primary_dark
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#4B6F80"
+        tab: Primary Colors
+      color_primary_dark_content:
+        label: themes.frostbite::lang.options.color_primary_dark_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_primary_dark_hover:
+        label: themes.frostbite::lang.options.color_primary_dark_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Primary Colors
+      color_primary_dark_hover_content:
+        label: themes.frostbite::lang.options.color_primary_dark_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_primary_dark_focus:
+        label: themes.frostbite::lang.options.color_primary_dark_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Primary Colors
+      color_primary_dark_focus_content:
+        label: themes.frostbite::lang.options.color_primary_dark_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Primary Colors
+      color_secondary:
+        label: themes.frostbite::lang.options.color_secondary
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#B4DAE4"
+        tab: Secondary Colors
+      color_secondary_content:
+        label: themes.frostbite::lang.options.color_secondary_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#000000"
+        tab: Secondary Colors
+      color_secondary_hover:
+        label: themes.frostbite::lang.options.color_secondary_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Secondary Colors
+      color_secondary_hover_content:
+        label: themes.frostbite::lang.options.color_secondary_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Secondary Colors
+      color_secondary_focus:
+        label: themes.frostbite::lang.options.color_secondary_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Secondary Colors
+      color_secondary_focus_content:
+        label: themes.frostbite::lang.options.color_secondary_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Secondary Colors
+      color_secondary_dark:
+        label: themes.frostbite::lang.options.color_secondary_dark
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#072D36"
+        tab: Secondary Colors
+      color_secondary_dark_content:
+        label: themes.frostbite::lang.options.color_secondary_dark_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Secondary Colors
+      color_secondary_dark_hover:
+        label: themes.frostbite::lang.options.color_secondary_dark_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Secondary Colors
+      color_secondary_dark_hover_content:
+        label: themes.frostbite::lang.options.color_secondary_dark_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Secondary Colors
+      color_secondary_dark_focus:
+        label: themes.frostbite::lang.options.color_secondary_dark_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Secondary Colors
+      color_secondary_dark_focus_content:
+        label: themes.frostbite::lang.options.color_secondary_dark_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#FFFFFF"
+        tab: Secondary Colors
+      color_accent:
+        label: themes.frostbite::lang.options.color_accent
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#044C6D"
+        tab: Accent Colors
+      color_accent_content:
+        label: themes.frostbite::lang.options.color_accent_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#044C6D"
+        tab: Accent Colors
+      color_accent_hover:
+        label: themes.frostbite::lang.options.color_accent_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Accent Colors
+      color_accent_hover_content:
+        label: themes.frostbite::lang.options.color_accent_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Accent Colors
+      color_accent_focus:
+        label: themes.frostbite::lang.options.color_accent_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Accent Colors
+      color_accent_focus_content:
+        label: themes.frostbite::lang.options.color_accent_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#052838"
+        tab: Accent Colors
+      color_accent_dark:
+        label: themes.frostbite::lang.options.color_accent_dark
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#549EC0"
+        tab: Accent Colors
+      color_accent_dark_content:
+        label: themes.frostbite::lang.options.color_accent_dark_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#549EC0"
+        tab: Accent Colors
+      color_accent_dark_hover:
+        label: themes.frostbite::lang.options.color_accent_dark_hover
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#08577B"
+        tab: Accent Colors
+      color_accent_dark_hover_content:
+        label: themes.frostbite::lang.options.color_accent_dark_hover_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#08577B"
+        tab: Accent Colors
+      color_accent_dark_focus:
+        label: themes.frostbite::lang.options.color_accent_dark_focus
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#08577B"
+        tab: Accent Colors
+      color_accent_dark_focus_content:
+        label: themes.frostbite::lang.options.color_accent_dark_focus_content
+        type: colorpicker
+        span: storm
+        cssClass: col-md-4
+        default: "#08577B"
+        tab: Accent Colors
