@@ -14,18 +14,38 @@ form:
       type: colorpicker
       span: left
       default: "#052838"
+    color_primary_text:
+      label: themes.frostbite::lang.options.color_primary_text
+      type: colorpicker
+      span: right
+      default: "#FFFFFF"
     color_primary_dark:
       label: themes.frostbite::lang.options.color_primary_dark
       type: colorpicker
+      span: left
+      default: "#4B6F80"
+    color_primary_dark_text:
+      label: themes.frostbite::lang.options.color_primary_dark_text
+      type: colorpicker
       span: right
-      default: "#5C8192"
+      default: "#FFFFFF"
     color_secondary:
       label: themes.frostbite::lang.options.color_secondary
       type: colorpicker
       span: left
-      default: "#2DA7C7"
+      default: "#B4DAE4"
+    color_secondary_text:
+      label: themes.frostbite::lang.options.color_secondary_text
+      type: colorpicker
+      span: right
+      default: "#000000"
     color_secondary_dark:
       label: themes.frostbite::lang.options.color_secondary_dark
       type: colorpicker
-      span: right
+      span: left
       default: "#072D36"
+    color_secondary_dark_text:
+      label: themes.frostbite::lang.options.color_secondary_dark_text
+      type: colorpicker
+      span: right
+      default: "#FFFFFF"

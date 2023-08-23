@@ -15,9 +15,13 @@ module.exports = {
         extend: {
             colors: {
                 primary: 'var(--primary)',
+                'primary-text': 'var(--primary-text)',
                 'primary-dark': 'var(--primary-dark)',
+                'primary-dark-text': 'var(--primary-dark-text)',
                 secondary: 'var(--secondary)',
+                'secondary-text': 'var(--secondary-text)',
                 'secondary-dark': 'var(--secondary-dark)',
+                'secondary-dark-text': 'var(--secondary-dark-text)',
                 transparent: 'transparent',
                 current: 'currentColor',
                 black: colors.black,
