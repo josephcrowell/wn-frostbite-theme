@@ -13,9 +13,19 @@ form:
       label: themes.frostbite::lang.options.color_primary
       type: colorpicker
       span: left
-      default: "#145574"
+      default: "#052838"
+    color_primary_dark:
+      label: themes.frostbite::lang.options.color_primary_dark
+      type: colorpicker
+      span: right
+      default: "#5C8192"
     color_secondary:
       label: themes.frostbite::lang.options.color_secondary
       type: colorpicker
-      span: right
+      span: left
       default: "#2DA7C7"
+    color_secondary_dark:
+      label: themes.frostbite::lang.options.color_secondary_dark
+      type: colorpicker
+      span: right
+      default: "#072D36"
