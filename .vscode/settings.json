@@ -22,5 +22,6 @@
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
-    "prettier.bracketSameLine": true
+    "prettier.bracketSameLine": true,
+    "cSpell.words": ["sidenav"]
 }
