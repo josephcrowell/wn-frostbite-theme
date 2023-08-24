@@ -13,6 +13,48 @@ form:
         type: text
         span: full
         tab: General
+      color_base:
+        label: themes.frostbite::lang.options.color
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#FFFFFF"
+        tab: Base Colors
+      color_base_alt:
+        label: themes.frostbite::lang.options.color_alt
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#737373"
+        tab: Base Colors
+      color_base_content:
+        label: themes.frostbite::lang.options.color_content
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#000000"
+        tab: Base Colors
+      color_base_dark:
+        label: themes.frostbite::lang.options.color_dark
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#27272A"
+        tab: Base Colors
+      color_base_dark_alt:
+        label: themes.frostbite::lang.options.color_dark_alt
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#09090B"
+        tab: Base Colors
+      color_base_dark_content:
+        label: themes.frostbite::lang.options.color_dark_content
+        type: colorpicker
+        span: storm
+        cssClass: col-lg-4
+        default: "#FFFFFF"
+        tab: Base Colors
       color_nav:
         label: themes.frostbite::lang.options.color
         type: colorpicker
