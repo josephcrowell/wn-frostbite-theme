@@ -83,7 +83,7 @@ form:
         cssClass: col-lg-4
         default: "#052838"
         tab: Navigation Colors
-      color_nav_background_dark:
+      color_nav_dark:
         label: themes.frostbite::lang.options.color_dark
         type: colorpicker
         span: storm
@@ -335,7 +335,7 @@ form:
         cssClass: col-lg-4
         default: "#052838"
         tab: Footer Colors
-      color_footer_background_dark:
+      color_footer_dark:
         label: themes.frostbite::lang.options.color_dark
         type: colorpicker
         span: storm
@@ -391,7 +391,7 @@ form:
         cssClass: col-lg-4
         default: "#052838"
         tab: Copyright Colors
-      color_copyright_background_dark:
+      color_copyright_dark:
         label: themes.frostbite::lang.options.color_dark
         type: colorpicker
         span: storm
