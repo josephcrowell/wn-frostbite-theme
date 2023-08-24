@@ -1,16 +1,30 @@
 [viewBag]
 ==
 <!-- Footer -->
-<footer id="layout-footer" class="p-8 justify-self-end text-center text-gray-500 bg-gray-700 dark:bg-gray-900">
-    <p>
-        Frostbite Theme. Released under the MIT License.
-        <a
-            href="https://github.com/computerlink/wn-frostbite-theme"
-            target="github"
-            class="text-gray-400 hover:text-gray-200 transform-gpu transition-colors"
-        >
-            View on GitHub.
-        </a>
-    </p>
+<footer class="justify-self-end text-center bg-footer dark:bg-footer-dark">
+    <div class="p-4 grid lg:grid-cols-3 mx-auto max-w-screen-xl text-footer-content dark:text-footer-dark-content">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="p-2 bg-copyright dark:bg-copyright-dark">
+        <span class="block text-sm text-center text-copyright-content dark:text-copyright-dark-content">
+                Frostbite Theme. Released under the MIT License.
+                <a
+                    href="https://github.com/computerlink/wn-frostbite-theme"
+                    target="github"
+                    class="transform-gpu
+                        transition-colors
+                        text-copyright-content
+                        dark:text-copyright-dark-content
+                        hover:text-copyright-hover-content
+                        dark:hover:text-copyright-dark-hover-content
+                        visited:text-copyright-focus-content
+                        dark:visited:text-copyright-dark-focus-content"
+                >
+                    View on GitHub.
+                </a>
+        </span>
+    </div>
 </footer>
 {% partial "html/scripts" %}
