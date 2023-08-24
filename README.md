@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://packagist.org/packages/josephcrowell/wn-frostbite-theme">
-    <img src="https://img.shields.io/badge/Winter CMS-Theme-%23EE7203.svg">
+    <img src="https://img.shields.io/badge/Winter CMS-Theme-darkblue.svg">
   </a>
   <a href="https://www.patreon.com/josephcrowell">
-    <img src="https://img.shields.io/badge/Support_on-Patreon-green.svg">
+    <img src="https://img.shields.io/badge/Support_on-Patreon-darkgreen.svg">
   </a>
   <a href="https://opensource.org/license/mit/">
-    <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg">
+    <img src="https://img.shields.io/badge/License-MIT-darkslategray.svg">
   </a>
 </p>
 
